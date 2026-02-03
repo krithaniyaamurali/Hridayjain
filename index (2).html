@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Hriday Veg Diva</title>
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+<style>
+body{
+    margin:0;
+    font-family:'Roboto',sans-serif;
+    background:url("https://uploads.onecompiler.io/44cezvccf/44cf4naey/19471.jpg");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    text-align:center;
+    color:white;
+}
+/* dark overlay */
+body::before{
+    content:"";
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,0.35);
+    z-index:-1;
+}
+
+section{
+    min-height:100vh;
+    padding:40px 20px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    transition: all 0.5s ease;
+}
+
+h1{
+    font-family: 'Times New Roman';
+    font-size:42px;
+    margin-bottom:20px;
+    color:#fff;
+    text-shadow: 1px 1px 2px #00000055;
+}
+
+p{
+    max-width:650px;
+    font-size:20px;
+    line-height:1.6;
+    color:#fff;
+    text-shadow: 1px 1px 2px #00000044;
+}
+
+button{
+    padding:12px 25px;
+    border:none;
+    border-radius:25px;
+    font-size:16px;
+    margin-top:20px;
+    cursor:pointer;
+    background:linear-gradient(to right, #ff4d6d, #ff758c);
+    color:white;
+    transition: transform 0.2s;
+}
+
+button:hover{
+    transform: scale(1.1);
+}
+
+img{
+    width:200px;
+    height:200px;
+    border-radius:20px;
+    margin:10px;
+    object-fit: cover;
+    border: 3px solid #fff;
+}
+
+.hidden{display:none;}
+
+.pic-row{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- PAGE 1 -->
+<section id="page1">
+<h1>HRIDAY JAIN</h1>
+<p>Since you’re not asking me out, DIVA 💅… Happy Valentine’s Day <br>
+Punishment:NON-VEG date with me on Feb 13 🫣<br>
+Also bro… Feb 14 I’ll be at home......hehe 😛</p>
+
+<div class="pic-row">
+    <img src="https://uploads.onecompiler.io/44cezvccf/44cf4naey/19356.jpg">
+    <img src="https://uploads.onecompiler.io/44cezvccf/44cf4naey/19357.jpg">
+</div>
+
+<button onclick="next('page1','page2')">Click if you love me 😛</button>
+</section>
+
+<!-- PAGE 2 -->
+<section id="page2" class="hidden">
+<h1>5 Reasons I Love You 😛💕</h1>
+<p>
+💗 You’re the cutest, prettiest, most handsome boy I’ve met<br>
+💗 You’re caring, sweet, calm… basically a walking green flag..<br>
+💗 You make me feel safe, loved, and you always look out for me — you feel like home<br>
+💗 You’re very mature… carrying this relationship while I act crazy<br>
+💗 Okay, REAL reason: you buy me food 😛<br>
+💗 And you treat me like a princess — as you should, because I wouldn’t accept anything less<br>
+I got carried away and wrote 6..that's enough
+</p>
+
+<div class="pic-row">
+    <img src="https://uploads.onecompiler.io/44cezvccf/44cf4naey/19463.jpg">
+    <img src="https://uploads.onecompiler.io/44cezvccf/44cf4naey/19462.jpg">
+    <img src="https://uploads.onecompiler.io/44cezvccf/44cf4naey/19461.jpg">
+</div>
+
+<button onclick="next('page2','page3')">Next ➡️</button>
+</section>
+
+<!-- PAGE 3 -->
+<section id="page3" class="hidden">
+<h1>I LOVE YOU😚</h1>
+
+<div class="pic-row">
+    <img src="https://uploads.onecompiler.io/44cezvccf/44cf2sxjy/19334.jpg">
+    <img src="https://uploads.onecompiler.io/44cezvccf/44cf2sxjy/19329.jpg">
+    <img src="https://uploads.onecompiler.io/44cezvccf/44cf2sxjy/19325.jpg">
+    <img src="https://uploads.onecompiler.io/44cezvccf/44cf2sxjy/19321.jpg">
+    <img src="https://uploads.onecompiler.io/44cezvccf/44cewav2q/19319.jpg">
+    <img src="https://uploads.onecompiler.io/44cezvccf/44cf2sxjy/19335.jpg">
+</div>
+
+<p>MY HAPPY PLACE 💖</p>
+<button onclick="next('page3','page4')">Next ➡️</button>
+</section>
+
+<!-- PAGE 4 -->
+<section id="page4" class="hidden">
+<h1>So… basically ChatGPT asked me to write something sweet for you 😛</h1>
+
+<div class="pic-row">
+    <img src="https://uploads.onecompiler.io/44cezvccf/44cf4naey/19460.jpg">
+    <img src="https://uploads.onecompiler.io/44cezvccf/44cf4naey/19459.jpg">
+</div>
+
+<p>
+I love you, Hriday Veg ❤️<br><br>
+Thank you for loving me on my bad days and making me laugh when I feel low. Bro… I don’t even know, it still feels like a dream. Like, all of this… us… feels so worth the wait 😌<br><br>
+Also… I’m running out of things to tell you, bro. So… just read my letter 😋
+</p>
+
+<button onclick="next('page4','page5')">Next ➡️</button>
+</section>
+
+<!-- PAGE 5 -->
+<section id="page5" class="hidden">
+<h1>Will you be my Valentine? 💖</h1>
+
+<div class="pic-row">
+    <img src="https://uploads.onecompiler.io/44cezvccf/44cf4naey/19348.jpg">
+    <img src="https://uploads.onecompiler.io/44cezvccf/44cf4naey/19349.jpg">
+</div>
+
+<button onclick="yes()">YES ❤️</button>
+<button id="noBtn">NO 🤨(if you click no… I’m telling everyone you’re gayy)</button>
+
+<p id="result"></p>
+</section>
+
+<script>
+function next(a,b){
+    document.getElementById(a).classList.add("hidden");
+    document.getElementById(b).classList.remove("hidden");
+}
+
+function yes()
+{
+    document.getElementById("result").innerHTML="I knew it… how could someone NOT love me 😌";
+}
+
+const noBtn=document.getElementById("noBtn");
+noBtn.addEventListener("mouseover",()=>{
+    noBtn.style.position="absolute";
+    noBtn.style.left=Math.random()*80+"%";
+    noBtn.style.top=Math.random()*80+"%";
+});
+</script>
+
+</body>
+</html>
